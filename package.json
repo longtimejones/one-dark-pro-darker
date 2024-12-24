@@ -1,0 +1,26 @@
+{
+  "name": "one-dark-pro-darker",
+  "displayName": "One Dark Pro Darker",
+  "description": "Forked and tweaked version of Binaryify's Visual Studio Code theme, One Dark Pro Darker, updated exclusively for PHP syntax highlighting",
+  "version": "1.0.0",
+  "icon": "one-dark-pro-darker.png",
+  "publisher": "longtimejones",
+  "repository": {
+    "url": "https://github.com/longtimejones/one-dark-pro-darker"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-dark-pro-darker.json"
+      }
+    ]
+  }
+}
